@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">NewsHunter</string>
+    <string name="login_name">Iniciar Sesión</string>
+    <string name="user_hint">Usuario</string>
+    <string name="pass_hint">Constraseña</string>
+    <string name="btn_login">Entrar</string>
+    <string name="btn_crear">Registrar</string>
+    <string name="vrecordar">¿No recuerda Constraseña?</string>
+    <string name="vIngreso">Inicio</string>
+    <string name="btnEscribir">Escribir Noticia</string>
+    <string name="btnRevisar">Revisar Noticias</string>
+    <string name="vRegistro">Registro Usuario</string>
+    <string name="email_hint">usuario@email.com</string>
+    <string name="btn_registro">Registrarse</string>
+    <string name="ocupacion_hint">Ocupación</string>
+    <string name="vRecuperar">Recuperar Constraseña</string>
+    <string name="btn_recuperar">Recuperar Contraseña</string>
+</resources>

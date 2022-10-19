@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/backround2"
+    android:padding="15dp"
+    android:layout_gravity="center"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/vIngreso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/vIngreso"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:gravity="center"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnEscribir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnEscribir"
+        android:textColor="@color/black"
+        android:layout_below="@+id/vIngreso"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/cardview_light_background"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnRevisar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnRevisar"
+        android:textColor="@color/black"
+        android:layout_below="@+id/btnEscribir"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/cardview_light_background"/>
+
+</RelativeLayout>
