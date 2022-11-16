@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background2"
+    android:padding="15dp"
+    android:layout_gravity="center"
+    tools:context=".WriteActivity2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/vWrite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/vWrite"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:gravity="center"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnLocacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btnLocacion"
+                android:layout_below="@+id/vWrite"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/black"/>
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnFinalizar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btnFinalizar"
+                android:layout_below="@+id/btnLocacion"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/black"/>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

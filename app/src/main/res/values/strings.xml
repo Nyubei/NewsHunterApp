@@ -2,10 +2,10 @@
     <string name="app_name">NewsHunter</string>
     <string name="login_name">Iniciar Sesión</string>
     <string name="user_hint">Usuario</string>
-    <string name="pass_hint">Constraseña</string>
+    <string name="pass_hint">Contraseña</string>
     <string name="btn_login">Entrar</string>
     <string name="btn_crear">Registrar</string>
-    <string name="vrecordar">¿No recuerda Constraseña?</string>
+    <string name="vrecordar">¿No recuerda Contraseña?</string>
     <string name="vIngreso">Inicio</string>
     <string name="btnEscribir">Escribir Noticia</string>
     <string name="btnRevisar">Revisar Noticias</string>
@@ -13,6 +13,12 @@
     <string name="email_hint">usuario@email.com</string>
     <string name="btn_registro">Registrarse</string>
     <string name="ocupacion_hint">Ocupación</string>
-    <string name="vRecuperar">Recuperar Constraseña</string>
-    <string name="btn_recuperar">Recuperar Contraseña</string>
+    <string name="vRecuperar">Recuperar Contraseña</string>
+    <string name="btnRecuperar">Recuperar Contraseña</string>
+    <string name="vWrite">Nueva Noticia</string>
+    <string name="newsTitle_hint">Titular</string>
+    <string name="btnContinuar">Continuar</string>
+    <string name="btnFinalizar">Guardar Noticia</string>
+    <string name="mapbox_access_token">pk.eyJ1Ijoibnl1YmVpIiwiYSI6ImNsOWg0MXNhYzAwdmgzeG1lMnZrenUyZzMifQ.JseTcRbkCZYpmxcUMbL4WA</string>
+    <string name="btnLocacion">Obtener locación actual</string>
 </resources>

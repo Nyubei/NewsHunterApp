@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@drawable/backround1"
+    android:background="@drawable/background1"
     android:padding="15dp"
     android:layout_gravity="center"
     tools:context=".RecoverActivity">
@@ -71,7 +71,7 @@
                 android:id="@+id/btnRegistro"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/btn_recuperar"
+                android:text="@string/btnRecuperar"
                 android:layout_below="@+id/vEmail"
                 android:layout_marginTop="40dp"
                 android:textColor="@color/white"
