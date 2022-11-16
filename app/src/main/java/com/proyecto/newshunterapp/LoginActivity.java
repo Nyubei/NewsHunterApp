@@ -58,7 +58,6 @@ public class LoginActivity extends AppCompatActivity {
                     }
 
                     int validar = 0;
-
                     for (int i = 0; i < lista.size(); i++) {
                         User user = lista.get(i);
 

@@ -25,6 +25,5 @@ dependencyResolutionManagement {
         }
     }
 }
-
 rootProject.name = "NewsHunterApp"
 include ':app'
