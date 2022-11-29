@@ -21,4 +21,8 @@
     <string name="btnFinalizar">Guardar Noticia</string>
     <string name="mapbox_access_token">pk.eyJ1Ijoibnl1YmVpIiwiYSI6ImNsOWg0MXNhYzAwdmgzeG1lMnZrenUyZzMifQ.JseTcRbkCZYpmxcUMbL4WA</string>
     <string name="btnLocacion">Obtener locación actual</string>
+    <string name="txtViewNoticias">Noticias</string>
+    <string name="txtTitular">Titular:</string>
+    <string name="txtCuerpo">Cuerpo:</string>
+
 </resources>

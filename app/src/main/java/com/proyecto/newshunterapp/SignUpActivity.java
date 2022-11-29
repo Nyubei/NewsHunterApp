@@ -3,6 +3,7 @@ package com.proyecto.newshunterapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
+import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteStatement;
 import android.os.Bundle;
@@ -65,6 +66,7 @@ public class SignUpActivity extends AppCompatActivity {
                     statement.bindString(4,ocupacion);
                     statement.execute();
                     Toast.makeText(SignUpActivity.this,"Usuario Registrado", Toast.LENGTH_SHORT).show();
+                    startActivity(new Intent(SignUpActivity.this,LoginActivity.class));
                 }
                 catch (Exception ex){
                     Toast.makeText(SignUpActivity.this,"Usuario no pudo ser Registrado", Toast.LENGTH_SHORT).show();

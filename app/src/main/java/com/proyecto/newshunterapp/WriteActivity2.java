@@ -16,6 +16,7 @@ public class WriteActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_write2);
 
         MaterialButton btnLocacion = (MaterialButton) findViewById(R.id.btnLocacion);
+        MaterialButton btnGuardar = (MaterialButton) findViewById(R.id.btnFinalizar);
 
         btnLocacion.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -24,5 +25,11 @@ public class WriteActivity2 extends AppCompatActivity {
             }
         });
 
+        btnGuardar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(WriteActivity2.this,HomeActivity.class));
+            }
+        });
     }
 }
