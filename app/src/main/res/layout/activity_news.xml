@@ -1,9 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    android:padding="15dp"
+    android:layout_gravity="center"
     tools:context=".NewsActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:id="@+id/lbltitular"
+                android:text="@string/txtTitular"
+                android:paddingTop="10dp"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/titular"
+                android:text="xxx"
+                android:background="@drawable/border"
+                android:paddingTop="10dp"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:layout_toRightOf="@id/lbltitular"
+                android:paddingLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/lblcuerpo"
+                android:text="@string/txtCuerpo"
+                android:paddingTop="10dp"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_below="@id/lbltitular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/cuerpo"
+                android:text="xxx"
+                android:background="@drawable/border"
+                android:paddingTop="10dp"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:layout_below="@id/lblcuerpo"
+                android:paddingLeft="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/lblfecha"
+                android:text="fecha"
+                android:paddingTop="20dp"
+                android:paddingLeft="170dp"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_below="@id/cuerpo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/fecha"
+                android:text="xxx"
+                android:background="@drawable/border"
+                android:paddingTop="10dp"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:layout_below="@id/lblfecha"
+                android:layout_toRightOf="@id/lblfecha"
+                android:paddingLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "594154975164",
+    "project_id": "newshunterapp",
+    "storage_bucket": "newshunterapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594154975164:android:8ad64023cf3a52dac9c5b9",
+        "android_client_info": {
+          "package_name": "com.proyecto.newshunterapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "594154975164-8fh2h3agacuuqevp923vvvk23hr43oiv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFME_tG0uxFayLO-yxlBRJvm4p1qp72CU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "594154975164-8fh2h3agacuuqevp923vvvk23hr43oiv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
